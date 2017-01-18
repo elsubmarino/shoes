@@ -1,0 +1,275 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:'Malgun Gothic';
+}
+
+#register{
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left:-200px;
+	border:1px solid black;
+	width:400px;
+	height:400px;
+	background-color:red;
+}
+
+#bold-white{
+	font-weight:bold;
+	color:white;
+	font-size:2em;
+	letter-spacing:-0.5;
+	text-align:center;
+	padding:30 0;
+}
+#buttons{
+	width:100%;
+	clear:left;
+}
+.button{
+	position:relative;
+	float:left;
+	width:100px;
+	height:100px;
+	line-height:100px;
+	background-color:lightblue;
+	color:white;
+	text-align:center;
+		margin:0 auto;
+	
+	
+}
+.button:hover{
+	background-color:blue;
+	cursor:pointer;
+}
+
+#register .form{
+	clear:left;
+	padding-left:20px;
+	margin:0 auto;
+}
+
+#register .form .left{
+	width:150px;
+	float:left;
+	font-size:1.4em;
+	color:white;
+	padding-bottom:20px;
+}
+
+#register .form .right{
+	width:150px;
+	float:left;
+}
+
+
+
+#wrapper{
+	width:100%;
+}
+
+#mainMenu{
+	width:inherit;
+	height:40px;
+		border-top:1px solid #B6B4B6;
+		border-bottom:1px solid #E5E5E5;
+	color:#979797;
+	letter-spacing:-0.4;
+}
+
+
+#mainMenu #leftMenu div{
+	float:left;
+	display:inline-block;
+	box-sizing:border-box;
+	display:inline-block;
+	width:200px;
+	border-right:1px solid #E5E5E5;
+
+	text-align:center;
+	line-height:40px;
+}
+#mainMenu #rightMenu div{
+	float:right;
+	display:inline-block;
+	box-sizing:border-box;
+	width:200px;
+	border-right:1px solid #E5E5E5;
+	text-align:center;
+	line-height:40px;
+}
+
+#mainMenu #leftMenu div:hover,#mainMenu #rightMenu div:hover{
+	cursor:pointer;
+	font-weight:bold;
+	color:black;
+}
+
+#icon{
+	margin-top:20px;
+	margin-left:50px;
+	float:left;
+}
+
+#centerBar{
+	width:500px;
+	margin:0 auto;
+}
+
+#rightBar{
+	width:200px;
+	
+}
+
+#rightBar div{
+	display:inline-block;
+	float:right;
+}
+
+#footer{
+	display:absolute;
+	bottom:100%;
+	width:100%;
+	height:300px;
+	background-color:black;
+}
+
+
+#log{
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left:-200px;
+	border:1px solid black;
+	width:400px;
+	height:400px;
+	background-color:red;
+	
+}
+
+#centerBar div{
+	font-family:impact;
+	display:inline-block;
+	width:100px;
+	height:80px;
+	line-height:80px;
+	font-weight:900;
+	letter-spacing:-1px;
+	font-size:1.3em;
+	text-align:center;
+}
+#centerBar div:hover{
+	cursor:pointer;
+}
+
+#bar{
+	width:100%;
+		border-bottom:4px solid #E5E5E5;
+
+}
+
+#men{
+	
+}
+
+.submenu{
+	top:125px;
+	position:absolute;
+	display:none;
+	width:100%;
+	background-color:white;
+}
+.submenu .sub-wrapper{
+	box-sizing:border-box;
+	width:800px;
+	height:500px;
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.submenu .sub-wrapper .sub-left{
+		box-sizing:border-box;
+	float:left;
+	display:inline-block;
+	width:20%;
+	height:100%;
+	text-align:left;
+	border-right:1px solid #E5E5E5;
+	font-weight:bold;
+	font-size:1.1em;
+}
+.submenu .sub-wrapper .sub-center{
+	float:left;
+		box-sizing:border-box;
+	height:100%;
+		display:inline-block;
+	margin-left:50px;
+	width:40%;
+	text-align:left;
+	border-right:1px solid #E5E5E5;
+}
+
+.submenu .sub-wrapper .sub-right{
+	float:left;
+	margin-left:50px;
+		box-sizing:border-box;
+		height:100%;
+	
+		display:inline-block;
+	
+	width:20%;
+}
+.medium-bold{
+		font-weight:bold;
+	font-size:1.1em;
+	margin-bottom:20px;
+	letter-spacing:-0.1;
+}
+.sub-wrapper ul{
+	list-style-type:none;
+}
+.sub-wrapper ul li{
+	margin-bottom:10px;
+}
+#greyBox{
+	box-sizing:border-box;
+	width:100%;
+	height:65px;
+	background-color:#F7F7F7;
+	
+}
+#centerBanner{
+		box-sizing:border-box;
+
+	float:left;
+	line-height:65px;
+	text-align:center;
+	width:200px;
+	margin:0 auto;
+}
+#centerBanner ul li{
+	float:left;
+	display:inline-block;
+	width:200px;
+	text-overflow:clip;
+	font-weight:bold;
+}
+#centerBanner ul{
+	list-style-type:none;
+}
+#leftArrow, #rightArrow{
+	cursor:pointer;
+		box-sizing:border-box;
+		text-align:center;
+	line-height:65px;
+	width:200px;
+	display:inline-block;
+	float:left;
+}
